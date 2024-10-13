@@ -1,8 +1,17 @@
 {
   "name": "kurono",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "private": true,
+  "scripts": {
+    "compile": "npx shadow-cljs compile app",
+    "release": "npx shadow-cljs release app",
+    "test": "npx shadow-cljs compile test && node out/test.js"
+  },
   "devDependencies": {
+    "fix-esm": "1.0.1",
+    "mdast-util-from-markdown": "2.0.1",
+    "mdast-util-to-markdown": "2.1.0",
+    "posthtml-parser": "0.12.1",
     "shadow-cljs": "2.28.16"
   }
 }
