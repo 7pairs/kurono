@@ -1,1 +1,2 @@
-{:catalog "/Users/jun-haseba/Downloads/bishibashi/catalog.edn"}
+{:catalog "../../bishibashi/catalog.edn"
+ :manuscripts "../../bishibashi/originals"}
