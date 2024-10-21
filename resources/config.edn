@@ -1,2 +1,6 @@
 {:catalog "../../bishibashi/catalog.edn"
- :manuscripts "../../bishibashi/originals"}
+ :manuscripts "../../bishibashi/originals"
+ :format {:heading-number ["第%d章"
+                           "%d.%d"
+                           "%d.%d.%d"
+                           "%d.%d.%d.%d"]}}
