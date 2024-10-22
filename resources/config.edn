@@ -1,6 +1,7 @@
 {:catalog "../../bishibashi/catalog.edn"
  :manuscripts "../../bishibashi/originals"
- :format {:heading-number ["第%d章"
-                           "%d.%d"
-                           "%d.%d.%d"
-                           "%d.%d.%d.%d"]}}
+ :format {:chapters {:heading-number ["第%d章"
+                                      "%d.%d"
+                                      "%d.%d.%d"
+                                      "%d.%d.%d.%d"]
+                     :image-number "図%d.%d"}}}
